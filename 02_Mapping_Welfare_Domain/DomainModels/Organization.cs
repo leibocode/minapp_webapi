@@ -20,7 +20,5 @@ namespace _02_Mapping_Welfare_Domain.DomainModels
         public int orgState { get; set; }
 
         public ICollection<WechatUser> WechatUsers { get; set; }
-         
-
     }
 }

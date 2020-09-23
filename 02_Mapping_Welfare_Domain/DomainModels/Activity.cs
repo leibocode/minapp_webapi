@@ -45,6 +45,13 @@ namespace _02_Mapping_Welfare_Domain.DomainModels
         /// </summary>
         public int Give { get; set; }
 
+        /// <summary>
+        /// 状态
+        /// </summary>
+        public int Astate { get; set; }
+
+        public DateTime Created { get; set; }
+
         public ICollection<Comments> Comments { get; set; }
     }
 }

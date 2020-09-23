@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace _0_Mapping_Welfare_API.Controllers
 {
     [ApiController]
-    [Route("api/")]
+    [Route("api/[controller]")]
     public class BannerController:ControllerBase
     {
 

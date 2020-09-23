@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using _02_Mapping_Welfare_Domain.Interfaces;
+using _03_Mapping_Welfare_Infrastructure.Data;
 using _03_Mapping_Welfare_Infrastructure.Repositories;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -30,10 +32,22 @@ namespace _0_Mapping_Welfare_API
         {
             services.AddControllers();
 
-            //×¢Èë
+ 
+            #region ×¢Èë
             services.AddScoped<IBannerRepository, BannerRepository>();
 
+            services.AddScoped<IActivityRepository, ActivityRepository>();
+
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            services.AddScoped<IUnitwork, Unitwork>();
+            #endregion
+
+            //×¢Èëcontext
+            services.AddDbContext<WelfareContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),g=>g.MigrationsAssembly("0_Mapping_Welfare_API"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

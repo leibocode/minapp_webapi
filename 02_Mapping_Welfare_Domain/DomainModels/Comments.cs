@@ -9,12 +9,14 @@ namespace _02_Mapping_Welfare_Domain.DomainModels
     {
         public Guid Id { get; set; }
 
-        public DateTime Crated { get; set; }
+        public DateTime Created { get; set; }
 
         public string CommentText { get; set; }
 
         public Activity Activity { get; set; }
 
         public Guid ActivityId { get; set; }
+
+        public WechatUser WechatUser { get; set; }
     }
 }

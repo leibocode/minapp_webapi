@@ -31,5 +31,7 @@ namespace _02_Mapping_Welfare_Domain.DomainModels
         public Guid? OrgId { get; set; }
 
         public string Address { get; set; }
+
+        public ICollection<WechatUser> WechatUsers { get; set; }
     }
 }

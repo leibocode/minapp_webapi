@@ -1,0 +1,9 @@
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\bin\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.deps.json
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\bin\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\bin\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.pdb
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\obj\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.csprojAssemblyReference.cache
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\obj\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.csproj.CoreCompileInputs.cache
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\obj\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.AssemblyInfoInputs.cache
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\obj\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.AssemblyInfo.cs
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\obj\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\02_Mapping_Welfare_Domain\obj\Debug\netcoreapp3.1\02_Mapping_Welfare_Domain.pdb
