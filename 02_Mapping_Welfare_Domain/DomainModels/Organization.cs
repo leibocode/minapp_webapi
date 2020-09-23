@@ -9,6 +9,18 @@ namespace _02_Mapping_Welfare_Domain.DomainModels
     {
         public Guid Id { get; set; }
 
+        public string Category { get; set; }
+
+        public string Url { get; set; }
+
+        public int Region { get; set; }
+
+        public string Name { get; set; }
+
+        public int orgState { get; set; }
+
+        public ICollection<WechatUser> WechatUsers { get; set; }
+         
 
     }
 }

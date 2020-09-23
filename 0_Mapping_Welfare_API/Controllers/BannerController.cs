@@ -3,6 +3,7 @@ using _02_Mapping_Welfare_Domain.Interfaces;
 using _03_Mapping_Welfare_Infrastructure.Data.Dtos.BannerDtos;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,11 +20,14 @@ namespace _0_Mapping_Welfare_API.Controllers
 
         private  IMapper _mapper { get; set; }
 
-        public BannerController(IBannerRepository bannerRepository,IMapper mapper)
+        private readonly ILogger<BannerController> _logger;
+
+        public BannerController(IBannerRepository bannerRepository,IMapper mapper, ILogger<BannerController>  logger)
         {
             _bannerRepository = bannerRepository;
 
             _mapper = mapper;
+            _logger = logger;
         }
 
         [HttpGet]
