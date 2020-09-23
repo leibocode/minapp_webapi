@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\EntityConfigurations\" />
-    <Folder Include="Data\Dtos\" />
+    <Folder Include="Data\Dtos\ActivityDtos\" />
   </ItemGroup>
 
   <ItemGroup>
