@@ -5,5 +5,15 @@
     <RootNamespace>_0_Mapping_Welfare_API</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\02_Mapping_Welfare_Domain\02_Mapping_Welfare_Domain.csproj" />
+    <ProjectReference Include="..\03_Mapping_Welfare_Infrastructure\03_Mapping_Welfare_Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
 
 </Project>

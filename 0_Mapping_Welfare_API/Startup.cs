@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using _02_Mapping_Welfare_Domain.Interfaces;
+using _03_Mapping_Welfare_Infrastructure.Repositories;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +29,11 @@ namespace _0_Mapping_Welfare_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            //×¢Èë
+            services.AddScoped<IBannerRepository, BannerRepository>();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
