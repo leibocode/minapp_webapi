@@ -19,8 +19,6 @@ namespace _02_Mapping_Welfare_Domain.Interfaces
 
         Task<IEnumerable<Activity>> GetActivities();
 
-        //成为志愿者
 
-        
     }
 }

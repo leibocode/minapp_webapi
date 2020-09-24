@@ -171,6 +171,10 @@
               "target": "Package",
               "version": "[9.2.2, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -180,6 +184,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Senparc.Weixin": {
+              "target": "Package",
+              "version": "[6.7.600, )"
+            },
+            "Senparc.Weixin.WxOpen": {
+              "target": "Package",
+              "version": "[3.8.600, )"
             }
           },
           "imports": [

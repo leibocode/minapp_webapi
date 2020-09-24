@@ -12,25 +12,35 @@ namespace _02_Mapping_Welfare_Domain.DomainModels
         public string OpenId { get; set; }
 
         /// <summary>
+        /// 昵称
+        /// </summary>
+        public string NickName { get; set; }
+
+        /// <summary>
+        /// 图像
+        /// </summary>
+        public string Avr { get; set; }
+
+        /// <summary>
         /// 真实姓名
         /// </summary>
-        public string Name { get; set; }
-        
+        public string Name { get; set; } = "";
+
         /// <summary>
         /// 身份证号码
         /// </summary>
-        public string PIDNumber { get; set; }
+        public string PIDNumber { get; set; } = "";
 
         /// <summary>
         /// 地区
         /// </summary>
-        public int Region { get; set; }
+        public int? Region { get; set; }
 
         public Organization Organizations { get; set; }
 
         public Guid? OrgId { get; set; }
 
-        public string Address { get; set; }
+        public string Address { get; set; } = "";
 
         public ICollection<WechatUser> WechatUsers { get; set; }
     }

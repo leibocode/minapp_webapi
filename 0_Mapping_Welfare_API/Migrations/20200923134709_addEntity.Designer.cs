@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using _03_Mapping_Welfare_Infrastructure.Data;
 
 namespace _0_Mapping_Welfare_API.Migrations
 {
     [DbContext(typeof(WelfareContext))]
-    partial class WelfareContextModelSnapshot : ModelSnapshot
+    [Migration("20200923134709_addEntity")]
+    partial class addEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

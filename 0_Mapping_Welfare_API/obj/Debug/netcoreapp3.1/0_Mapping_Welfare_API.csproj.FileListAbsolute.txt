@@ -63,3 +63,12 @@ C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare
 C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\obj\Debug\netcoreapp3.1\0_Mapping_Welfare_API.dll
 C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\obj\Debug\netcoreapp3.1\0_Mapping_Welfare_API.pdb
 C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\obj\Debug\netcoreapp3.1\0_Mapping_Welfare_API.genruntimeconfig.cache
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\Senparc.CO2NET.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\Senparc.CO2NET.APM.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\Senparc.NeuChar.dll
+C:\Users\lb\Desktop\daonet\3.x\mapping_welfare\mapping_welfare\0_Mapping_Welfare_API\bin\Debug\netcoreapp3.1\Senparc.Weixin.dll
